@@ -1,0 +1,40 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
+.flex{
+  display: flex;
+}
+.height{
+  height: 78vh;
+}
+.wrap{padding: 20px;
+  width: 100%;}
+
+  form{
+    padding: 20px;
+    width: 100%;
+  }
+  textarea{
+    width: 100%;
+    height: 200px;
+    resize: none;
+  }
+  .delete{
+    position: absolute;
+    right: -7px;
+    top: -11px;
+    padding: 0 4px;
+    border-radius: 5px;
+    background: red;
+    color: #fff;
+  }
+  ul{
+    list-style: none;
+    padding: 0 !important;
+  }
+  button{
+    margin-right: 2px !important;
+  }
+  .box{
+    background: rgb(213, 231, 213);
+    padding: 5px 12px;
+    border-radius: 5px;
+  }
